@@ -1,0 +1,104 @@
+body{
+    background-color:#E69138;
+    overflow-x: hidden;
+}
+
+
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+
+}
+
+/* nav bar menu items */
+
+.nav-bar li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #073763;
+    font-size: 25px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Change the background color on hover */
+.nav-bar li a:hover {
+    background-color: #073763;
+    color: #E69138;
+    border-radius: 5%;
+}
+
+/* logo details */
+.header-img{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+     max-width: 80%;
+     height: auto;
+ }
+
+.hero{
+    color:#073763;
+    text-align: center;
+    font-size:40px;
+    padding-bottom: 140px;   
+}
+
+.name{
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.hero h1, h2 {
+    margin:0px;
+}
+
+
+
+.container{
+    display: flex;
+     flex-direction: row;
+    
+  justify-content: center;
+  align-items: center;
+    padding-top: 100px;
+}
+
+.container img {
+    height: 100%;
+    width: 100%;
+     object-fit: contain;     
+  }
+   
+
+.items{
+    flex: 1;
+    flex-flow: column wrap;
+    color:#073763;
+   
+   width: 400px;
+   height: 400px;
+   margin-bottom: 50px;
+}
+.items:first-child{
+    margin-right: 30px;
+}
+
+.details h2{
+    padding-top: 40px;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;  
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding-left: 20px;
+    height: 200px;
+    font-size: 40px;
+}
+
